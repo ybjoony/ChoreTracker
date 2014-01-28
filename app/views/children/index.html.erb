@@ -1,0 +1,21 @@
+<table>
+  <tr>
+    <th width="120" align="left">First name</th>
+    <th width="120" align="left">Last name</th>
+    <th width="120">Active</th>
+    <th></th>
+  </tr>
+
+<% @children.each do |child| %>
+  <tr>
+    <td><%= child.first_name %></td>
+    <td><%= child.last_name %></td>
+    <td align="center"><%= child.active %></td>
+    <td><%= link_to 'Edit', edit_child_path(child) %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Child', new_child_path %>

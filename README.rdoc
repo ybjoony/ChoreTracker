@@ -1,0 +1,7 @@
+67-272 - ChoreTracker
+=====================
+This is the starter file for the ChoreTracker lab (lab 7) for 67-272. More information about this lab can be found at the course site at http://cmu-is-272.org/labs.
+
+Students need to run the bundle command to make sure you have the proper gems, then migrate the database, and then run `rake db:test:prepare` to make sure the test database is also ready and have the proper tables and fields.
+
+There is a default user created in the migrations -- you can log in with 'dad' and the password 'taskmaster' to gain access to the system.
