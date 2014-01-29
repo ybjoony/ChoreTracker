@@ -25,12 +25,6 @@ class ChildrenController < ApplicationController
       render action: "new"
     end
   end
- #def name
- # @child = Child.find(params[:id])
-  #  fname = @child.first_name
-   # lname = @child.last_name
-    #return (fname+" " + lname)
-  #end
   def update
     @child = Child.find(params[:id])
     if @child.update_attributes(params[:child])
