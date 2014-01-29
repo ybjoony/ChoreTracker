@@ -10,7 +10,7 @@
   <tr>
     <td><%= child.first_name %></td>
     <td><%= child.last_name %></td>
-    <td align="center"><%= child.active %></td>
+    <td align="center"><%= child.active ? "Yes" : "No" %></td>
     <td><%= link_to 'Edit', edit_child_path(child) %></td>
   </tr>
 <% end %>
