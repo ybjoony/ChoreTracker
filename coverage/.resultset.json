@@ -24,8 +24,24 @@
       "/vagrant/ChoreTracker/app/helpers/users_helper.rb": [
         1,
         null
+      ],
+      "/vagrant/ChoreTracker/app/models/task.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/vagrant/ChoreTracker/app/models/chore.rb": [
+        1,
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1390951892
+    "timestamp": 1390971498
   }
 }
